@@ -28,7 +28,7 @@ arg: output: Filename of the CSV file
 ---
 name: hubspot
 description: Work with hubspot api to import csv files containing contacts
-credential: github.com/drpebcak/hubspot-lead-upload
+credential: github.com/drpebcak/hubspot-lead-upload/credential
 args: listname: the name of the contact list to create
 args: csvfile: The csv formatted file containing the contacts to import
 
