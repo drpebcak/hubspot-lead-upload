@@ -23,7 +23,7 @@ name: excel-to-csv
 arg: input: Filename of the excel spreadsheet
 arg: output: Filename of the CSV file
 
-#!/bin/env python3 excel-to-csv.py
+#!/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/excel-to-csv.py
 
 ---
 name: hubspot
@@ -32,4 +32,4 @@ credential: github.com/drpebcak/hubspot-lead-upload/credential
 args: listname: the name of the contact list to create
 args: csvfile: The csv formatted file containing the contacts to import
 
-#!/bin/env python3 hubspot-import.py
+#!/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/hubspot-import.py
